@@ -23,7 +23,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
-.signup-form{
+.form{
     border-radius: 10px;
     border: 2px;
     background-color: royalblue;
@@ -67,7 +67,7 @@ body{
     margin-right: 3.5%;
     color: white;
 }
-#signup,#login{
+#signup,#login,#Send,#reset{
     padding: 10px;
     background-color: rgb(13, 63, 223);
     border-radius: 5px;
@@ -89,7 +89,7 @@ body{
     background-color: rgb(226, 29, 29);
     border-radius: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 2rem;
     margin: 1rem;
    }
@@ -99,4 +99,7 @@ body{
     padding: 3px;
     background-color: rgb(13, 63, 223);
     color: whitesmoke;
+   }
+   .changed{
+    text-align: center;
    }

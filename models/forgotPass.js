@@ -14,4 +14,4 @@ const Forgot=sequelize.define('forgot',{
    }
 });
 
-module.exports=User;
+module.exports=Forgot;

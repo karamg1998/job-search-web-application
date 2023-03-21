@@ -4,5 +4,7 @@ const router=express.Router();
 
 router.get('/getuser',userController.getUser);
 router.post('/adduser',userController.addUser);
+router.post('/forgotpass',userController.forgotPass);
+router.post('/forgotpasssuccess',userController.forgotSuccess);
 
 module.exports=router;
